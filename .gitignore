@@ -1,0 +1,11 @@
+# ignore bin/obj and VS Code settings
+bin/
+obj/
+*.user
+
+# Log files
+log/
+*.log
+
+# VS Code settings (keep these as they contain useful dev configurations)
+# .vscode/

@@ -1,0 +1,32 @@
+{
+  "folders": [
+    {
+      "name": "bulkDURLoader (Primary)",
+      "path": "./bulkDURLoader"
+    },
+    {
+      "name": "Workspace Root",
+      "path": "."
+    }
+  ],
+  "settings": {
+    "dotnet.defaultSolution": "disable",
+    "omnisharp.enableEditorConfigSupport": true,
+    "omnisharp.enableRoslynAnalyzers": true,
+    "csharp.semanticHighlighting.enabled": true,
+    "csharp.format.enable": true,
+    "editor.formatOnSave": true,
+    "files.exclude": {
+      "**/bin": true,
+      "**/obj": true
+    },
+    "debug.defaultLaunchConfiguration": "bulkDURLoader (console)"
+  },
+  "extensions": {
+    "recommendations": [
+      "ms-dotnettools.csharp",
+      "ms-dotnettools.csdevkit",
+      "ms-dotnettools.vscode-dotnet-runtime"
+    ]
+  }
+}

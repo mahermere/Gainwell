@@ -1,0 +1,17 @@
+{
+    "FileProcessingSettings": {
+        "Delimiter": "|",
+        "FileNameFieldIndex": 2,
+        "RootPath": "C:\\source\\FileProcessor\\TestData\\DataFiles",
+        "ZeroBytePath": "C:\\source\\FileProcessor\\TestData\\ZeroBytes",
+        "CreateDirectories": true,
+        "LogLevel": "Information"
+    },
+    "Logging": {
+        "LogLevel": {
+            "Default": "Information",
+            "Microsoft": "Warning",
+            "Microsoft.Hosting.Lifetime": "Information"
+        }
+    }
+}

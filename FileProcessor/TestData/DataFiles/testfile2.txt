@@ -1,0 +1,2 @@
+Another file with content.
+This file should be processed normally.

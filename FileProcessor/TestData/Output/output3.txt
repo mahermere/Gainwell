@@ -1,0 +1,4 @@
+record1|data1|testfile1.txt|field4|field5
+record2|data2|testfile2.txt|field4|field5
+record5|data5|testfile1.txt|field4|field5
+record7|data7|testfile2.txt|field4|field5

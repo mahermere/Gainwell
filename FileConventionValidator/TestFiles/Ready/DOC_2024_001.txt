@@ -1,0 +1,3 @@
+This is a valid document file for testing.
+Document ID: DOC_2024_001
+Created: 2024-01-01

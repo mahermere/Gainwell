@@ -1,0 +1,76 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "bulkDURLoader (console)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/bulkDURLoader/bin/Debug/net9.0/bulkDURLoader.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/bulkDURLoader",
+            "console": "externalTerminal",
+            "stopAtEntry": false
+        },
+        {
+            "name": "bulkDURLoader (internal console)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/bulkDURLoader/bin/Debug/net9.0/bulkDURLoader.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/bulkDURLoader",
+            "console": "internalConsole",
+            "stopAtEntry": false
+        },
+        {
+            "name": "bulkDURLoader .NET 8.0 (console)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-net8.0",
+            "program": "${workspaceFolder}/bulkDURLoader/bin/Debug/net8.0/bulkDURLoader.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/bulkDURLoader",
+            "console": "externalTerminal",
+            "stopAtEntry": false
+        },
+        {
+            "name": "bulkDURLoader .NET 8.0 (internal console)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-net8.0",
+            "program": "${workspaceFolder}/bulkDURLoader/bin/Debug/net8.0/bulkDURLoader.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/bulkDURLoader",
+            "console": "internalConsole",
+            "stopAtEntry": false
+        },
+        {
+            "name": "SampleApp (console)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-SampleApp",
+            "program": "${workspaceFolder}/SampleApp/bin/Debug/net9.0/SampleApp.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/SampleApp",
+            "console": "externalTerminal",
+            "stopAtEntry": false
+        },
+        {
+            "name": "SampleApp (internal console)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-SampleApp",
+            "program": "${workspaceFolder}/SampleApp/bin/Debug/net9.0/SampleApp.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/SampleApp",
+            "console": "internalConsole",
+            "stopAtEntry": false
+        },
+        {
+            "name": ".NET Core Attach",
+            "type": "coreclr",
+            "request": "attach"
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "dotnet.defaultSolution": "disable",
+    "omnisharp.enableEditorConfigSupport": true,
+    "omnisharp.enableRoslynAnalyzers": true,
+    "csharp.semanticHighlighting.enabled": true,
+    "csharp.format.enable": true,
+    "editor.formatOnSave": true,
+    "files.exclude": {
+        "**/bin": true,
+        "**/obj": true
+    },
+    "explorer.excludeGitIgnore": true
+}
